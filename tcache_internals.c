@@ -2,7 +2,7 @@
 #include <stdlib.h>
  
 /*
-    copy from https://0x00sec.org/t/heap-safari-thread-local-caching/5054
+    origin: https://0x00sec.org/t/heap-safari-thread-local-caching/5054
     PoC on tcache's internals regarding fast chunks (0x20 - 0x80).
     environ: Ubuntu 17.10, glibc-2.26
 */
